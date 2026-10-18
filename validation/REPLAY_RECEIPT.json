@@ -1,0 +1,41 @@
+{
+  "all_checks_passed": true,
+  "jobs": [
+    {
+      "script": "audit_primary.py",
+      "exit_code": 0,
+      "log": "01_audit_primary.log"
+    },
+    {
+      "script": "audit_bootstrap.py",
+      "exit_code": 0,
+      "log": "02_audit_bootstrap.log"
+    },
+    {
+      "script": "audit_natural.py",
+      "exit_code": 0,
+      "log": "03_audit_natural.log"
+    },
+    {
+      "script": "audit_external.py",
+      "exit_code": 0,
+      "log": "04_audit_external.log"
+    },
+    {
+      "script": "diagnose_context.py",
+      "exit_code": 0,
+      "log": "05_diagnose_context.log"
+    },
+    {
+      "script": "make_audit_report.py",
+      "exit_code": 0,
+      "log": "06_make_audit_report.log"
+    },
+    {
+      "script": "analyze_line_budgets.py",
+      "exit_code": 0,
+      "log": "07_analyze_line_budgets.log"
+    }
+  ],
+  "scope": "Saved observations only; not new inference or human annotation."
+}
