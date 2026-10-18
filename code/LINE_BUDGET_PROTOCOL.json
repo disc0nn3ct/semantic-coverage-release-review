@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "recorded_utc": "2026-10-03T20:49:31Z",
+  "status": "post-result descriptive diagnostic, specified before calculating this new metric; not a preregistration or confirmatory test",
+  "question": "How much of the controlled target-file set is reached under equal caps on the number of changed lines inspected?",
+  "population": "The existing 96 locked controlled test cases, with target recall macro-averaged over all 48 positive cases; no case exclusions or new model calls.",
+  "methods": ["g3_nomic", "raw_nomic", "raw_mx", "codebert", "graphcodebert", "tfidf", "bm25"],
+  "generation_seeds": [1702, 1703, 1704],
+  "deterministic_baselines_runs": 1,
+  "budgets_changed_lines": [0, 10, 25, 50, 100, 200],
+  "cost": "For each eligible source file, additions plus deletions in its saved patch, verified against corpus.json. No fractional inspection and no line-level target truth are assumed.",
+  "policies": {
+    "emitted_prefix": "Use files whose score is greater than or equal to the method's original locked development threshold, descending by score. Inspect the next whole file only if it fits the remaining budget. Stop at the first file that does not fit; do not skip it to inspect a cheaper lower-ranked file.",
+    "all_file_prefix": "A separately reported threshold-free ranking diagnostic. Apply the same whole-file prefix rule to all eligible files, descending by score. This is not the deployed emitted-alert policy."
+  },
+  "tie_break": "Exact binary64 score ties are broken by ascending case-sensitive Unicode code-point file path, then file id. No target information is used. This deterministic policy differs from the existing file-budget expectation over ties.",
+  "recall": "Per positive case, number of target paths in the inspected whole-file prefix divided by all target paths in that case. A missed release or empty inspected prefix contributes zero. Average over all 48 positive cases, then average the selected pipeline's three seed-level means. Baselines are calculated once and are not replicated as independent runs.",
+  "workload": "Mean actual additions-plus-deletions inspected, number of files inspected, and unused budget are reported for both all 96 cases and the 48 positive cases. Budget is a cap, not a claim that all available lines were used.",
+  "grouping": "Report overall, project-stratified, seed-specific and per-case values. Repeated seeds are not independent cases. Descriptive summaries only; no post-hoc statistical superiority claim.",
+  "boundary_checks": ["zero budget", "file size exactly equal to remaining budget", "first ranked file larger than budget prevents cheaper later files from being inspected", "threshold equality included", "below-threshold target retained in the recall denominator", "lexicographic exact-score tie", "all-file and emitted policies remain distinct"],
+  "limits": "Controlled source-substitution target files are provenance labels. Changed-line counts are workload proxies, not measured human time, changed-line recall, semantic defect truth, or evidence of industrial effectiveness. No tuning of model, threshold, budgets, tie handling, or included cases will follow inspection of the new results."
+}
