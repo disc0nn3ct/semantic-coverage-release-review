@@ -1,0 +1,69 @@
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.tox/
+.nox/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+.coverage
+htmlcov/
+/build/
+/dist/
+
+# Downloaded artifacts and disposable replay/inference work
+/artifacts/
+/work/
+/replay/
+/.cache/
+/tmp/
+/temp/
+/original_pipeline/results/
+/original_pipeline/logs/
+/original_pipeline/data/upstream_candidates/
+
+# Release archives, array caches and model weights belong in release assets
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.npz
+*.npy
+*.gguf
+*.safetensors
+*.onnx
+*.pt
+*.pth
+
+# Local secrets; safe example files may be committed explicitly
+.env
+.env.*
+!.env.example
+!.env.sample
+.netrc
+_netrc
+.pypirc
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+
+# Local editor and OS files
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Scientific JSON/CSV manifests, licenses and validation receipts stay tracked.
