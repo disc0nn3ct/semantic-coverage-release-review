@@ -1,0 +1,14 @@
+{
+  "requested_url": "https://raw.githubusercontent.com/fastapi/fastapi/d08b95ea57fa5740c8c04da554f2b6e259f4dea4/LICENSE",
+  "resolved_url": "https://raw.githubusercontent.com/fastapi/fastapi/d08b95ea57fa5740c8c04da554f2b6e259f4dea4/LICENSE",
+  "acquired_utc": "2026-09-26T14:11:50.022603+00:00",
+  "status": 200,
+  "content_type": "text/plain; charset=utf-8",
+  "etag": "\"5f82e40fabcc985a47df172e4cb4d1a09fa75f77dcfa98c0a05abd321cb8533b\"",
+  "last_modified": null,
+  "rate_limit_remaining": null,
+  "rate_limit_reset": null,
+  "sha256": "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e",
+  "bytes": 1086,
+  "attempts": 1
+}
