@@ -1,0 +1,70 @@
+[
+  {
+    "repo": "fastapi/fastapi",
+    "reference_commit": "d08b95ea57fa5740c8c04da554f2b6e259f4dea4",
+    "source_pr": "https://github.com/fastapi/fastapi/pull/12103",
+    "filename": "LICENSE",
+    "url": "https://raw.githubusercontent.com/fastapi/fastapi/d08b95ea57fa5740c8c04da554f2b6e259f4dea4/LICENSE",
+    "path": "data/licenses/fastapi__fastapi/LICENSE",
+    "sha256": "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e",
+    "acquired_utc": "2026-09-26T14:11:50.022603+00:00",
+    "status": "retained",
+    "boundary": "Repository-level license/notice snapshot at one selected immutable merge commit; individual diff provenance and authors remain in the corpus."
+  },
+  {
+    "repo": "apache/airflow",
+    "reference_commit": "9287e0c1d477a290bbd1afb9a4d7c45ae9fd7fe2",
+    "source_pr": "https://github.com/apache/airflow/pull/73103",
+    "filename": "LICENSE",
+    "url": "https://raw.githubusercontent.com/apache/airflow/9287e0c1d477a290bbd1afb9a4d7c45ae9fd7fe2/LICENSE",
+    "path": "data/licenses/apache__airflow/LICENSE",
+    "sha256": "cb0d37346e7916e782a2904dc5b8c8cdb8424eac5effb91ac409329c883619d4",
+    "acquired_utc": "2026-09-26T14:11:50.524159+00:00",
+    "status": "retained",
+    "boundary": "Repository-level license/notice snapshot at one selected immutable merge commit; individual diff provenance and authors remain in the corpus."
+  },
+  {
+    "repo": "apache/airflow",
+    "reference_commit": "9287e0c1d477a290bbd1afb9a4d7c45ae9fd7fe2",
+    "source_pr": "https://github.com/apache/airflow/pull/73103",
+    "filename": "NOTICE",
+    "url": "https://raw.githubusercontent.com/apache/airflow/9287e0c1d477a290bbd1afb9a4d7c45ae9fd7fe2/NOTICE",
+    "path": "data/licenses/apache__airflow/NOTICE",
+    "sha256": "fdc587ce72285126cb098fca7e62aa7ad94a96ca07d1cd950639998c4940cee7",
+    "acquired_utc": "2026-09-26T14:11:51.011877+00:00",
+    "status": "retained",
+    "boundary": "Repository-level license/notice snapshot at one selected immutable merge commit; individual diff provenance and authors remain in the corpus."
+  },
+  {
+    "repo": "home-assistant/core",
+    "reference_commit": "731cb8b238eea24ff6c4d7814f4453ee9b6168f2",
+    "source_pr": "https://github.com/home-assistant/core/pull/182505",
+    "filename": "LICENSE.md",
+    "url": "https://raw.githubusercontent.com/home-assistant/core/731cb8b238eea24ff6c4d7814f4453ee9b6168f2/LICENSE.md",
+    "path": "data/licenses/home-assistant__core/LICENSE.md",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "acquired_utc": "2026-09-26T14:11:51.500591+00:00",
+    "status": "retained",
+    "boundary": "Repository-level license/notice snapshot at one selected immutable merge commit; individual diff provenance and authors remain in the corpus."
+  },
+  {
+    "repo": "keycloak/keycloak",
+    "reference_commit": "cc0ad300b51a7ee2b2bbcecce533b53abd36d2ab",
+    "source_pr": "https://github.com/keycloak/keycloak/pull/52406",
+    "filename": "LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/keycloak/keycloak/cc0ad300b51a7ee2b2bbcecce533b53abd36d2ab/LICENSE.txt",
+    "path": "data/licenses/keycloak__keycloak/LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "acquired_utc": "2026-09-26T14:11:52.010155+00:00",
+    "status": "retained",
+    "boundary": "Repository-level license/notice snapshot at one selected immutable merge commit; individual diff provenance and authors remain in the corpus."
+  },
+  {
+    "repo": "keycloak/keycloak",
+    "reference_commit": "cc0ad300b51a7ee2b2bbcecce533b53abd36d2ab",
+    "filename": "NOTICE.txt",
+    "url": "https://raw.githubusercontent.com/keycloak/keycloak/cc0ad300b51a7ee2b2bbcecce533b53abd36d2ab/NOTICE.txt",
+    "status": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  }
+]
