@@ -1,0 +1,110 @@
+[
+  {
+    "published": "code/analyze_line_budgets.py",
+    "sha256": "994a9c9e89a6e2c5424817ef6087feabc577b40289622d683538211d7c254c01",
+    "source": "supplement/code/analyze_line_budgets.py",
+    "adapted": false
+  },
+  {
+    "published": "code/audit_bootstrap.py",
+    "sha256": "24e6bbaf6ac9c6b248241e31024523daa822a7b98446c2d72d7fa630f4dc9bb2",
+    "source": "supplement/code/audit_bootstrap.py",
+    "adapted": false
+  },
+  {
+    "published": "code/audit_natural.py",
+    "sha256": "1a752d3476591756c5aeba12df26ec2d561bfe4bd73e832e124d44dc139a19fb",
+    "source": "supplement/code/audit_natural.py",
+    "adapted": false
+  },
+  {
+    "published": "code/audit_primary.py",
+    "sha256": "dd3883db9b7329def9b488e5930502f3f586fceaacc85c156493ccb6ed089e7c",
+    "source": "supplement/code/audit_primary.py",
+    "adapted": false
+  },
+  {
+    "published": "code/LINE_BUDGET_PROTOCOL.json",
+    "sha256": "fcbcf2fbf1554585ea22d68b42fb6d1dad34e23d0659738a45cc0f066938234f",
+    "source": "supplement/code/LINE_BUDGET_PROTOCOL.json",
+    "adapted": false
+  },
+  {
+    "published": "code/external/audit_external.py",
+    "source": "VTSE_2711_REASSESSMENT.zip::reaudit/external_audit/audit_external.py",
+    "sha256": "f46dfbe76addf6ea4565d787b6f17c676512ea6d7b6bad70378b5e9124db823e",
+    "adapted": false
+  },
+  {
+    "published": "code/external/diagnose_context.py",
+    "source": "VTSE_2711_REASSESSMENT.zip::reaudit/external_audit/diagnose_context.py",
+    "sha256": "38706d6c2b08db9ade2e11582de1e9a06bf5c1646625db06466d4f476824b08d",
+    "adapted": false
+  },
+  {
+    "published": "code/external/make_audit_report.py",
+    "source": "VTSE_2711_REASSESSMENT.zip::reaudit/external_audit/make_audit_report.py",
+    "sha256": "39abeb772ed25611467bbb41d08eb88789d1ab0933d0aea939f8d0bcfaa16b0e",
+    "adapted": false
+  },
+  {
+    "published": "code/external/inputs/DEVELOPMENT_SELECTION_LOCK.json",
+    "source": "VTSE_2711_REASSESSMENT.zip::reaudit/external_audit/inputs/DEVELOPMENT_SELECTION_LOCK.json",
+    "sha256": "8ee9ffda1f04c0945ea2ad5234d1e4bcaaa9d842d3c353072e0720074958f6de",
+    "adapted": false
+  },
+  {
+    "published": "original_pipeline/src/build_corpus.py",
+    "source": "VTSE_2711_REPLICATION.zip::replication/src/build_corpus.py",
+    "sha256": "b6bd44dfda5684bea3057eb21f0afd1bfda6ccf1ba618f8165414d59b12eb910",
+    "adapted": false
+  },
+  {
+    "published": "original_pipeline/src/experiment_core.py",
+    "source": "VTSE_2711_REPLICATION.zip::replication/src/experiment_core.py",
+    "sha256": "0d0cbe22aa5f56e989d320d400b9162688bacfa54d54ccc03913c9d1ff76831b",
+    "adapted": false
+  },
+  {
+    "published": "original_pipeline/src/run_experiment.py",
+    "source": "VTSE_2711_REPLICATION.zip::replication/src/run_experiment.py",
+    "sha256": "2b4479577f89186a8553db17833b4eff12c1d142a007721ef0c6cbf08f91d639",
+    "adapted": false
+  },
+  {
+    "published": "original_pipeline/src/local_inference.py",
+    "source": "VTSE_2711_REPLICATION.zip::replication/src/local_inference.py",
+    "sha256": "0851935a76af6a5e6bb3fe5e908b70404c75da3f0d667a615c7c44c93f892492",
+    "adapted": false
+  },
+  {
+    "published": "original_pipeline/src/lm_embeddings.py",
+    "source": "VTSE_2711_REPLICATION.zip::replication/src/lm_embeddings.py",
+    "sha256": "5e6540bac6dac6365f98dd5051b09a5ae8dd9c5acf31d1e97ffe232a479620df",
+    "adapted": false
+  },
+  {
+    "published": "original_pipeline/src/embedding_tokenizers.py",
+    "source": "VTSE_2711_REPLICATION.zip::replication/src/embedding_tokenizers.py",
+    "sha256": "3b3d4adf6fc348ef3bbef723db77d12e3699f749678046a3169ab696f0dd24d1",
+    "adapted": false
+  },
+  {
+    "published": "original_pipeline/src/frozen_code_encoders.py",
+    "source": "VTSE_2711_REPLICATION.zip::replication/src/frozen_code_encoders.py",
+    "sha256": "6f15596359b79af3b6e9e6b5c02eb49beab831b07c7083497939f0095aa4af31",
+    "adapted": false
+  },
+  {
+    "published": "original_pipeline/src/statistical_analysis.py",
+    "source": "VTSE_2711_REPLICATION.zip::replication/src/statistical_analysis.py",
+    "sha256": "1a8bf4cb8fe3e46faed5f0c94ac93bad3c3ba9d04b98a96548dcfc29ac1244da",
+    "adapted": false
+  },
+  {
+    "published": "original_pipeline/src/statistical_sensitivities.py",
+    "source": "VTSE_2711_REPLICATION.zip::replication/src/statistical_sensitivities.py",
+    "sha256": "fc5e4ae1d520f4205dd887a0821e700a87631d5894290db59c31689d9cc98e8e",
+    "adapted": false
+  }
+]

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use these research artifacts, please cite this version."
+type: software
+title: "Semantic Coverage for Release Review: Replication Artifacts"
+authors:
+  - family-names: Fedorov
+    given-names: Sergei
+    orcid: "https://orcid.org/0009-0007-8376-6325"
+version: 1.0.0
+date-released: 2026-10-18
+url: "https://github.com/disc0nn3ct/semantic-coverage-release-review"
+license: MIT
