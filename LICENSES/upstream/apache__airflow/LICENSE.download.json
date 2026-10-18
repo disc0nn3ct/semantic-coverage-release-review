@@ -1,0 +1,14 @@
+{
+  "requested_url": "https://raw.githubusercontent.com/apache/airflow/9287e0c1d477a290bbd1afb9a4d7c45ae9fd7fe2/LICENSE",
+  "resolved_url": "https://raw.githubusercontent.com/apache/airflow/9287e0c1d477a290bbd1afb9a4d7c45ae9fd7fe2/LICENSE",
+  "acquired_utc": "2026-09-26T14:11:50.524159+00:00",
+  "status": 200,
+  "content_type": "text/plain; charset=utf-8",
+  "etag": "\"9d431f3deab708b315ef770059ca3defed8527860e8b2c03bd2f0ea2a9d8afc7\"",
+  "last_modified": null,
+  "rate_limit_remaining": null,
+  "rate_limit_reset": null,
+  "sha256": "cb0d37346e7916e782a2904dc5b8c8cdb8424eac5effb91ac409329c883619d4",
+  "bytes": 11752,
+  "attempts": 1
+}
